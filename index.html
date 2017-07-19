@@ -18,7 +18,7 @@ title: "Colitas a Casa A.C. - Inicio"
 <div class="content-wrap">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="about border">
                         <p>
                         description
@@ -39,9 +39,8 @@ title: "Colitas a Casa A.C. - Inicio"
                     <div class="post-content">
                         <div class="post-image" style="background-image: url({{post.image}});">&nbsp;</div>
                         <p itemprop="description">{{post.excerpt | strip_html}}...</p>
-                        <a href="{{post.url}}" class="btn btn-warning">Continuar leyendo</a>
+                        <a href="{{post.url}}" class="btn buttonstyle1">Más info</a>
                     </div>
-                    <hr />
                     <div class="post-meta">
                         Fecha: <span itemprop="datePublished">{{post.date| date_to_string}}</span><br />
                         <div class="share-icons">
@@ -67,7 +66,6 @@ title: "Colitas a Casa A.C. - Inicio"
                     <hr>
                 </div>
                     {% endfor %}
-            <div class="fill"></div>
             </section>
             </div>
         </div>
