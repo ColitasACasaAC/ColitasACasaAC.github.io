@@ -8,6 +8,5 @@ permalink: /:title/
 
 authors:
   maltes:
-    name: Maltés
-    image:
+    name: Maltes
     bio: Parrafo con descripción breve de la raza y posible ficha técnica.
