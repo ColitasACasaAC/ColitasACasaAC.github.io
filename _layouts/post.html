@@ -1,5 +1,6 @@
 --- 
 layout: default
+title: "Colitas a Casa A.C. - Adopta"
 --- 
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <meta itemprop="name" content="{{page.title}}" />
@@ -86,7 +87,8 @@ layout: default
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div id="sticky-anchor">
+            <div class="col-md-4" id="sticky">
                 <div class="about border">
                     <div class="author-image" style="border: 0">
                         <img src="{{author.image}}" alt="{{author.name}}" title="{{author.name}}" />
@@ -109,15 +111,6 @@ layout: default
                                 <a href="https://plus.google.com/share?url={{ site.url }}{{page.url}}" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus gp-tooltip"></i></a>
                             </li>
                         </ul>
-                    </div>
-                    <p>Encuentra m&aacute;s art&iacute;culos sobre:</p>
-                    <ul class="list-inline list-post-tags">
-                        {% for tag in page.tags %}
-                        <li><a href="/tag/{{tag}}">#{{tag}}</a></li>
-                        {% endfor %}
-                    </ul>
-                    <hr>
-                    <div style="text-align: center" class="hidden-sm hidden-xs">
                     </div>
                 </div>
             </div>
